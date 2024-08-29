@@ -1,0 +1,263 @@
+/* NAVBAR */
+
+header{
+    margin: 0;
+    padding: 0;
+}
+
+.navH{
+    width: fit-content;
+}
+.nav-item{
+    font-family: "poppins medium";
+    color: #333333;
+}
+.navbar-toggler{
+    margin-right: 15px;
+    border: none;
+}
+#nav-top-mobile button svg{
+    width: 30px;
+    height: 30px;
+}
+
+.nav-item > a{
+    font-family: "poppins medium";
+    font-size: 14px;
+    color: #333333;
+    text-decoration: none;
+    border-bottom: 6px solid white !important;
+    text-transform: uppercase !important;
+    height: 100%;
+    display: flex;
+
+}
+.nav-item > a:hover{
+    border-bottom: 6px solid #333333 !important;
+    font-family: "poppins medium";
+}
+
+/* DROPDOWN NAVBAR */
+
+.dropdown-menu{
+    position: relative;
+    border-radius: 0px !important;
+    background-color: #333333d5 !important;
+    text-transform: uppercase;
+    width: 230px;
+    top: 48px !important;
+    
+}
+.dropdown-menu a{
+    color: #ffffff !important;
+    font-size: 14px;
+    font-family: "poppins regular";
+    border-bottom: none !important;
+    white-space: normal;
+    top: 35px !important;
+    
+
+}
+.dropdown-menu a:hover, .dropdown-menu a.active{
+    background-color: transparent;
+    font-size: 17px;
+    font-family: "poppins bold";
+}
+
+.dropdown-divider{
+    border: 1px solid rgb(117, 117, 117);
+}
+
+.mainQuemSomos{
+    width: 66%;
+    font-size: 18px;
+    font-family: "poppins light";
+    color: #333333;
+    text-align: left;
+}
+
+
+/* CAROUSEL */ 
+
+.carousel img{
+    height: 40vw;
+    position: relative;
+}
+
+.shadow{
+    width: 100vw;
+    height: 100px;
+    box-shadow: inset 0px 8px 8px 0px rgba(0, 0, 0, 0.6) !important;
+    position: absolute !important;
+    top: -100px !important;
+    z-index: 20 !important;
+}
+
+.carousel-indicators button{
+    width: 71px !important;
+    height: 13px !important;
+    background-color: #ffffff !important;
+    opacity: 1 !important;
+}
+.carousel-indicators button.active{
+    background-color: #f9963b !important;
+}
+
+@media all and (max-width: 1200px){
+    .nav-item a{
+        font-size: 12px !important;
+    }
+
+    .navbar-brand img{
+        height: 40px;
+        width: 250px;    
+    }
+
+    /* Dropdown */
+
+    .dropdown-menu{
+        top: 45px !important;  
+    }
+}
+
+@media all and (max-width: 1050px){
+    .nav-item a{
+        font-size: 11px !important;
+    }
+    .navbar-brand img{
+        height: 35px;
+        width: 240px;
+
+    }
+
+    /* Dropdown */
+
+    .dropdown-menu{
+        top: 44px !important;  
+    }
+}
+
+@media all and (max-width: 992px){
+    .navH{
+        width: 100%;
+    }
+    .nav-link{
+        padding: 13px 0px !important;
+        padding-left: 20px !important;
+    }
+    .nav-item > a{
+        color: #ffffff !important;
+        border-bottom: 2px solid white !important;
+        font-size: 14px !important;
+    }
+    .nav-item > a:hover{
+        border-bottom: 2px solid white !important;
+        font-family: "poppins bold";
+    }
+
+    .navbar-nav{
+        width: 100vw !important;
+        position: absolute !important;
+        left: 0px;
+    }
+    
+    #nav-top-mobile .navbar-nav{
+        background-color: #333333d8;
+        position: fixed;
+        z-index: 50;
+        width: 360px;
+    }
+    /* Dropdown */
+    .dropdown-menu{
+        border-radius: 0px;
+        background-color: white !important;
+        width: 100vw;
+        top: 30px !important;
+    }
+    .drop2{
+        margin-left: 50px;
+        margin-right: 60px;
+
+    }
+    .dropdown-item{
+        padding: 4px 0px;
+    }
+        
+    
+    .dropdown-menu a{
+        color: #333333 !important;
+        font-size: 14px;
+        font-family: "poppins regular";  
+    }
+    .dropdown-menu a:hover, .dropdown-menu a.active{
+        background-color: transparent;
+        font-size: 17px;
+        font-family: "poppins bold";
+        color: #f9963b !important;
+    }
+    
+    .dropdown-divider{
+        border: 1px solid rgb(117, 117, 117);
+    }
+    /* Carousel 992 */
+    .carousel img{
+        height: 50vw;
+        position: relative;
+    }
+}
+
+@media all and (max-width:768px){
+    .carousel img{
+        height: 45vw;
+        position: relative;
+    }
+    .carousel-indicators button{
+        width: 60px !important;
+        height: 12px !important;
+        margin-left: 1px !important;
+    }
+}
+
+@media all and (max-width:576px){
+    .navbar-brand img{
+        height: 33px;
+        width: 200px;  
+    }
+    .carousel img{
+        height: 50vw;
+        position: relative;
+    }
+    .carousel-indicators button{
+        width: 44px !important;
+        height: 10px !important;
+        margin-left: 1px !important;
+    }
+}
+
+@media all and (max-width: 425px){
+    /* Navbar */ 
+    
+    .navbar-brand img{
+        height: 30px;
+        width: 160px;   
+    }
+    .navbar-toggler{
+        margin-right: 15px;
+        border: none;
+    }
+    /* IMG Principal */
+
+    .imgSocios, .imgQuemSomos, .imgNoticias, .imgDestaques, .imgEmp, .imgCentro, .imgContactos{
+        height: 259px;
+    }
+    /* Carousel */
+    .carousel img{
+        height: 70vw;
+        position: relative;
+    }
+    .carousel-indicators button{
+        width: 39px !important;
+        height: 8px !important;
+        margin-left: 1px !important;
+    }
+}

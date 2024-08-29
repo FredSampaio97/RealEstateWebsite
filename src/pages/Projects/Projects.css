@@ -1,0 +1,83 @@
+/* DESTAQUES */
+
+.carddestaques{
+    height: 726px !important;
+    width: 540px !important;
+    border: solid 1px #333333 !important;
+    border-radius: 0%;
+}
+.cardImgDestaques{
+    height: 357px;
+    border-radius: 0%;
+}
+.tituloCardDestaques{
+    font-size: 25px;
+    font-family: "poppins regular";
+}
+.textoCardDestaques{
+    font-size: 18px;
+    font-family: "poppins light";
+}
+
+@media all and (max-width:768px){
+    .carddestaques{
+        height: 660px !important;
+        width: 490px !important;
+    }
+    .cardImgDestaques{
+        height: 300px;
+    }
+    .tituloCardDestaques{
+        font-size: 23px;
+    }
+    .textoCardDestaques{
+        font-size: 17px;
+    }
+}
+
+@media all and (max-width:576px){
+    .carddestaques{
+        height: 500px !important;
+        width: 450px !important;
+    }
+    .cardImgDestaques{
+        height: 230px;
+    }
+    .tituloCardDestaques{
+        font-size: 20px;
+    }
+    .textoCardDestaques{
+        font-size: 15px;
+        /* overflow: hidden;
+        white-space: nowrap; alterar para nowrap para (...) funcionar
+        text-overflow: ellipsis; */
+        height:250px;
+    }
+}
+
+@media all and (max-width: 425px){
+    .carddestaques{
+        height: 400px !important;
+        width: 300px !important;
+    }
+    .cardImgDestaques{
+        height: 208px;
+    }
+    .tituloCardDestaques{
+        font-size: 17px;
+    }
+    .textoCardDestaques{
+        font-size: 14px;
+        /* overflow: hidden;
+        white-space: pre-wrap; alterar para nowrap para (...) funcionar
+        text-overflow: ellipsis; */
+        height:100px;
+    }
+    .buttonNoticias, .activeB{
+        width: 30px;
+        height: 30px;
+        font-family: "poppins light";
+        font-size: 14px;
+        border-radius: 5px;
+    }
+}

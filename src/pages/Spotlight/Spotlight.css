@@ -1,0 +1,44 @@
+.mainEmpreend{
+    width: 80%;
+    font-size: 18px;
+    font-family: "poppins light";
+    color: #333333;
+    text-align: left;
+}
+.imgEmpreend img{
+    width: 500px;
+    height: 300px;
+}
+
+@media all and (max-width: 992px){
+    .mainEmpreend{
+        width: 75%;
+        font-size: 16px;
+    }
+}
+
+@media all and (max-width:768px){
+    .mainEmpreend{
+        width: 75%;
+        font-size: 17px;
+    }
+
+    .imgEmpreend img{
+        width: 100%;
+        height: 230px;
+    }
+}
+
+@media all and (max-width:576px){
+    .mainEmpreend{
+        width: 80%;
+        font-size: 15px;
+    }
+}
+
+@media all and (max-width: 425px){
+    .imgEmpreend img{
+        width: 100%;
+        height: 190px;
+    }
+}

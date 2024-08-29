@@ -1,0 +1,246 @@
+/* ============ FOOTER ============ */
+
+/* CONTACTOS */
+
+.bgImg{
+    height: 30vw;
+    background-image: url(../../assets/FooterContactos3.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+   
+}
+ .bgColor{
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.6) !important;
+    background-size: 100% 100%;
+    height: 30vw;
+} 
+
+.contactosColuna{
+    display: flex !important;
+    justify-content: center;
+}
+
+.footerTitulo{
+    color: white !important;
+    font-family: "poppins regular" !important;
+    font-size: 43px !important;
+
+}
+
+footer p{
+    color: white !important;
+    font-family: "poppins regular" !important;
+    font-size: 25px !important;
+    margin-top: 47px;
+}
+
+#brake{
+    background-color: white !important;
+}
+
+/* MAPA */
+.mapa{
+    background-image: url("img/footer/mapa/mapa.png");
+    width: 100%;
+    height: 323px;
+    background-repeat: no-repeat;
+    
+}
+
+
+/* FACEBOOK */
+
+.navFooter{
+    width: 100%;
+    height: 27vw;
+    background-image: url(../../assets/FooterFacebook.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.bgColorNav{
+    width: 100%;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.6) !important;
+    background-size: 100% 100%;
+    height: 27vw;
+}
+.navFooter p{
+    color: #ffffff;
+    font-size: 29px;
+    font-family: "poppins regular";
+}
+
+.navFooter a{
+    margin-left: 8px;
+    color: #ffffff;
+    font-family: "poppins regular";
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;   
+}
+
+.navFooter a:hover, .navFooter a.active{
+    color: #f9963b;
+}
+
+.copy{
+    color: #ffffff;
+    font-size: 13px;
+    font-family: "poppins regular";
+    position: relative;
+    top: 60px;
+}
+    
+
+.line{
+    background-color: #ffffff;
+    height: 2px;
+    width: 100%;
+}
+
+@media all and (max-width: 1200px){
+    
+    /* CONTACTOS FOOTER*/
+    .icons{
+        width: 60px;
+        height: 60px;
+        
+    }
+    .footerTitulo{
+        font-size: 37px !important;
+    }
+    footer p{
+        font-size: 18px !important;
+        margin-top: 10px;
+    }
+    /* FACEBOOK FOOTER */
+    .navFooter, .bgColorNav{
+        height: 360px;
+        background-size: auto;
+    }
+    .navFooter p{
+        font-size: 25px;
+    }
+    .navFooter a{
+        font-size: 13px;   
+    }
+    .copy{
+        font-size: 13px;
+        top: 40px;
+    }
+
+}
+
+@media all and (max-width: 1050px){
+    /* CONTACTOS FOOTER */
+    .bgImg, .bgColor{
+        height: 400px;
+    }
+    
+    .icons{
+        width: 57px;
+        height: 57px;
+        
+    }
+    .footerTitulo{
+        font-size: 35px !important;
+    }
+    footer p{
+        font-size: 17px !important;
+    }
+    /* FACEBOOK FOOTER */
+    .navFooter, .bgColorNav{
+        height: 360px;
+        background-size: auto;
+        }
+    .navFooter p{
+        font-size: 24px;
+    }
+    .navFooter a{
+        font-size: 12px;   
+    }
+    .copy{
+        font-size: 12px;
+        top: 40px;
+    }
+}
+
+@media all and (max-width:768px){
+         /* CONTACTOS FOOTER */
+         .bgImg, .bgColor{
+            height: 450px;
+        }
+        .contactosColuna{
+            display: flex !important;
+            flex-direction: column !important;
+            align-items: center;
+        }
+        
+        .icons{
+            width: 50px;
+            height: 50px;
+            
+        }
+        .footerTitulo{
+            font-size: 30px !important;
+        }
+        footer p{
+            font-size: 14px !important;
+        }  
+        /* FACEBOOK FOOTER */
+        .navFooter, .bgColorNav{
+        height: 310px;
+        }
+        .copy{
+            width: 70%;
+            top: 30px;
+        }
+}
+
+@media all and (max-width:576px){
+    /* FACEBOOK FOOTER */
+    .navFooter, .bgColorNav{
+        height: 310px;
+        background-size: auto;
+    }
+    .copy{
+        width: 70%;
+        top: 30px;
+    }
+}
+
+@media all and (max-width: 425px){
+    /* Contactos */
+    .bgImg, .bgColor{
+        height: 500px;
+    }
+    .icons{
+        width: 50px;
+        height: 50px;   
+    }
+    .footerTitulo{
+        font-size: 28px !important;
+    }
+    footer p{
+        font-size: 13px !important;
+        margin-top: 15px !important;
+    }
+    /* Mapa */
+    .mapa{
+        background-image: url("img/footer/mapa/mapa.png");
+        width: 100%;
+        height: 323px;
+        background-repeat: no-repeat;
+        
+    }
+    /* Facebook */
+    .navFooter, .bgColorNav{
+        height: 310px;
+        background-size: auto;
+    }
+    .copy{
+        width: 70%;
+        top: 30px;
+    }
+}

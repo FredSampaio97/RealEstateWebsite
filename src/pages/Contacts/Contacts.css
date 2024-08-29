@@ -1,0 +1,103 @@
+.subtituloContactos, .infoContactos, label, .obrigatorio{
+    color: #333333 !important;
+    font-family: "poppins medium" !important;
+    text-transform: uppercase;
+    font-size: 25px;
+    text-align: left;
+}
+
+.recaptcha, .recaptcha > img{
+    width: 200px;
+    height: 59px;
+    border-radius: 5px;
+    
+}
+
+#labelCheckbox, .obrigatorio{
+    font-size: 13px;
+    text-transform: none;
+}
+.inputContactos{
+    width: 100%;
+    height: 35px;
+    border: solid #333333 1px;
+    border-radius: 10px;
+    outline: none;
+    padding-left: 15px;
+}
+#inputMensagem{
+    height: 175px;
+    display: flex !important;
+    align-items: flex-start;
+    outline: none;
+    padding-top: 10px;
+}
+
+.infoContactos{
+    font-family: "poppins regular" !important;
+}
+
+@media all and (max-width: 1570px){
+    .subtituloContactos, .infoContactos, label, .obrigatorio{
+        font-size: 23px !important;
+    }
+    #labelCheckbox, .obrigatorio{
+        font-size: 11px !important;
+        text-transform: none !important;
+    }
+    .recaptcha, .recaptcha > img{
+        width: 180px;
+        height: 50px;
+        border-radius: 5px;
+        
+    }
+}
+
+@media all and (max-width: 1200px){
+    .subtituloContactos, .infoContactos, label, .obrigatorio{
+        font-size: 21px !important;
+    }
+    #labelCheckbox, .obrigatorio{
+        font-size: 11px !important;
+        text-transform: none !important;
+    }
+    .recaptcha, .recaptcha > img{
+        width: 180px;
+        height: 50px;       
+    }
+}
+
+@media all and (max-width: 992px){
+    .subtituloContactos, .infoContactos, label, .obrigatorio{
+        font-size: 19px !important;
+    }
+    #labelCheckbox, .obrigatorio{
+        font-size: 10px !important;
+    }
+    .recaptcha, .recaptcha > img{
+        width: 180px;
+        height: 50px;       
+    }
+}
+
+@media all and (max-width:768px){
+    .subtituloContactos, .infoContactos, label, .obrigatorio{
+        font-size: 17px !important;
+    }
+    #labelCheckbox, .obrigatorio{
+        font-size: 10px !important;
+    }
+}
+
+@media all and (max-width:576px){
+    .subtituloContactos, .infoContactos, label, .obrigatorio{
+        font-size: 15px !important;
+    }
+    #labelCheckbox, .obrigatorio{
+        font-size: 10px !important;
+    }
+}
+
+@media all and (max-width: 425px){
+    
+}

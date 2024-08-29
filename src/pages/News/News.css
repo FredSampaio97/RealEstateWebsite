@@ -1,0 +1,96 @@
+/* NOTICIAS */
+
+.cardNoticias{
+    height: 726px !important;
+    width: 540px !important;
+    border: solid 1px #333333 !important;
+}
+.imgCard{
+    height: 357px;
+}
+.imgCard > img{
+    height: 357px;
+    width: 100%;
+}
+.cardNoticias > h2{
+    font-size: 25px;
+    font-family: "poppins regular";
+}
+.cardNoticias > p{
+    font-size: 18px;
+    font-family: "poppins light";
+}
+
+
+.buttonNoticias, .activeB{
+    width: 34px;
+    height: 34px;
+    font-family: "poppins light";
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.activeB, .buttonNoticias:hover{
+    background-color: #333333;
+    color: white;
+}
+
+@media all and (max-width:768px){
+    .cardNoticias{
+        height: 650px !important;
+    }
+    .imgNoticias{
+        height: 290px;
+    }
+    .imgCard{
+        height: 300px;
+    }
+    .imgCard > img{
+        height: 300px;
+    }
+    .cardNoticias > h2{
+        font-size: 22px;
+    }
+    .cardNoticias > p{
+        font-size: 17px;
+    }
+}
+
+@media all and (max-width:576px){
+    .cardNoticias{
+        height: 580px !important;
+    }
+    .imgNoticias{
+        height: 259px;
+    }
+    .imgCard{
+        height: 240px;
+    }
+    .imgCard > img{
+        height: 240px;
+    }
+    .cardNoticias > h2{
+        font-size: 19px;
+    }
+    .cardNoticias > p{
+        font-size: 14px;
+    }
+}
+
+@media all and (max-width: 425px){
+    .cardNoticias{
+        height: 544px !important;
+    }
+    .imgCard{
+        height: 189px;
+    }
+    .imgCard > img{
+        height: 189px;
+    }
+    .cardNoticias > h2{
+        font-size: 17px;
+    }
+    .cardNoticias > p{
+        font-size: 13px;
+    }
+}

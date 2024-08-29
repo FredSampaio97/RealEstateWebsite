@@ -1,0 +1,15 @@
+body{
+    
+    min-width: 360px;
+    margin: auto;
+    /* overflow-x: hidden; */
+}
+
+@media all and (min-width: 1600px){
+    main{
+        width: 80%;
+        margin: auto;
+    }
+}
+
+

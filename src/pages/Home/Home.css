@@ -1,0 +1,130 @@
+/* CARDS */
+.cardhome{
+    width: 375px !important;
+    height: 500px;
+    border-radius: 0%;
+}
+
+.card-body{
+    display: flex;
+    flex-direction: column;  
+}
+
+.card-title{
+    color: #333333;
+    text-align: left;
+    font-family: "poppins regular";
+    font-size: 24px;
+    margin-left: 10px;
+}
+
+.card-text{
+    color: #333333;
+    text-align: left;
+    font-family: "poppins light";
+    font-size: 18px;
+    margin-left: 10px;
+}
+.cardImg{
+    height: 255px;
+    border-radius: 0%;
+}
+#cards{
+   width: 100%;
+}
+
+@media all and (max-width: 1200px){
+    .cardImg{
+        height: 240px;
+    }
+    .card-title{
+        font-size: 22px;   
+    }
+    .card-text{
+        font-size: 16px;
+    }
+}
+
+@media all and (max-width: 1050px){
+    .cardhome{
+        height: 450px;
+    }
+     .cardImg{
+        height: 230px;
+    }
+    .card-text{
+        font-size: 16px;
+    }
+    .card-title{
+        font-size: 22px;
+        
+    }
+}
+
+@media all and (max-width: 992px){
+    .cardhome{
+        height: 440px;
+    }
+     .cardImg{
+        height: 220px;
+    }
+    .card-title{
+        font-size: 21px;
+        
+    }
+    .card-text{
+        font-size: 15px;
+    }
+}
+
+@media all and (max-width:768px){
+    .cardhome{
+        height: 440px;
+        width: 350px !important;
+    }
+     .cardImg{
+        height: 220px;
+    }
+    .card-title{
+        font-size: 21px;
+        
+    }
+    .card-text{
+        font-size: 15px;
+    }
+}
+
+@media all and (max-width:576px){
+    .cardhome{
+        height: 420px;
+        width: 320px !important;
+    }
+    .cardImg{
+        height: 220px;
+    }
+    .card-title{
+        font-size: 19px;
+        
+    }
+    .card-text{
+        font-size: 14px;
+    }
+}
+
+@media all and (max-width: 425px){
+    .cardhome{
+        height: 390px;
+        width: 290px !important;
+    }
+    .cardImg{
+        height: 220px;
+    }
+   
+    .card-title{
+        font-size: 15px;
+        
+    }
+    .card-text{
+        font-size: 12px;
+    }
+}

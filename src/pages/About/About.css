@@ -1,0 +1,48 @@
+.mainQuemSomos{
+    width: 66%;
+    font-size: 18px;
+    font-family: "poppins light";
+    color: #333333;
+    text-align: left;
+}
+
+@media all and (max-width: 1200px){
+    .mainQuemSomos{
+        font-size: 16px;
+    }
+    .mainQuemSomos img{
+        width: 280px;
+        height: 430px;
+    }
+}
+
+@media all and (max-width: 992px){    
+    .mainQuemSomos{
+        font-size: 15px;
+    }
+    .mainQuemSomos img{
+        width: 280px;
+        height: 400px;
+    }
+}
+
+@media all and (max-width:768px){
+    .mainQuemSomos{
+        font-size: 14px;
+    }
+    .mainQuemSomos img{
+        width: 200px;
+        height: 300px;
+    }
+}
+
+@media all and (max-width: 425px){   
+    .mainQuemSomos{
+        font-size: 13px;
+        width: 80%;
+    }
+    .mainQuemSomos img{
+        width: 140px;
+        height: 230px;
+    }
+}
