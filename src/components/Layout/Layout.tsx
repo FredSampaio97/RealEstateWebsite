@@ -8,7 +8,7 @@ import { useLocation } from 'react-router-dom';
 const layout: React.FC<{children: React.ReactNode}> = ({children}) => {
   const location = useLocation(); // Get the current location
   const isHomePage = location.pathname === '/' // Check if the current path is the home page
-  
+  const currentPage = location.pathname;
   
   
   
@@ -18,7 +18,7 @@ const layout: React.FC<{children: React.ReactNode}> = ({children}) => {
       <main>
         {children}
       </main>
-      <Footer />
+      <Footer currentPage={currentPage}/>
     </div>
   );
 };
