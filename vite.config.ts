@@ -7,4 +7,5 @@ export default defineConfig({
   build: {
     outDir: 'build', // Change this from 'dist' to 'build'
   },
+  base: '/',
 })
