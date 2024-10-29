@@ -11,8 +11,8 @@ import { useLocation } from 'react-router-dom'; // If you are using React Router
 interface FooterProps {
   currentPage: string;
 }
-// const API_KEY = process.env.REACT_APP_GOOGLE_MAPS_API_KEY;
-const API_KEY = "AIzaSyDHaBGVfFyYjNxngoh_RsjxVRegY-lYGpU"
+
+const apiKey = import.meta.env.VITE_API_KEY;
 
 const Footer: React.FC<FooterProps> = () => {
   
@@ -75,7 +75,7 @@ const Footer: React.FC<FooterProps> = () => {
             <iframe
               style={{ height: '100%', width: '100%', border: 0 }}
               frameBorder="0"
-              src={`https://www.google.com/maps/embed/v1/place?q=Porto,+Portugal&key=${API_KEY}`}
+              src={`https://www.google.com/maps/embed/v1/place?q=Porto,+Portugal&key=${apiKey}`}
               allowFullScreen
             ></iframe>
           </div>

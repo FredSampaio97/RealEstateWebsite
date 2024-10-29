@@ -53,7 +53,7 @@ footer p{
 
 .navFooter{
     width: 100%;
-    height: 27vw;
+    height: 450px;
     background-image: url(../../assets/FooterFacebook.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -63,7 +63,7 @@ footer p{
     position: relative;
     background-color: rgba(0, 0, 0, 0.6) !important;
     background-size: 100% 100%;
-    height: 27vw;
+    height: 450px;
 }
 .navFooter p{
     color: #ffffff;
@@ -99,7 +99,26 @@ footer p{
     width: 100%;
 }
 
+@media all and (max-width: 1500px){
+    .bgImg{
+        height: 500px;
+       
+    }
+     .bgColor{
+        height: 500px;
+    } 
+}
+
 @media all and (max-width: 1200px){
+    
+    .bgImg{
+        height: 400px;
+       
+    }
+     .bgColor{
+        height: 400px;
+    } 
+    
     
     /* CONTACTOS FOOTER*/
     .icons{
